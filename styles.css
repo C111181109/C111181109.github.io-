@@ -1,0 +1,22 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .background-image {
+    background-image: url('桌布.jpg'); /* 替換為你的透明背景圖片連結 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5; /* 設定透明度，範例中為 50% 透明 */
+  }
+  
+  
+  
